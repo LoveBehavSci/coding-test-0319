@@ -1,0 +1,367 @@
+respondent_id,include_primary,include_strict,self_blame_c,blame_1,scenario_type,real_conflict,outcome_var,feeling_score,outcome_label,family,order_label
+R_2vex3Z2Y8UJUhho,TRUE,TRUE,-10,40,real,1,feelings_youalone,-19,"I apologize first, other does not",unilateral,self_first
+R_2vex3Z2Y8UJUhho,TRUE,TRUE,-10,40,real,1,feelings_bothyoufirst,0,"I apologize first, then other apologizes",mutual,self_first
+R_2vex3Z2Y8UJUhho,TRUE,TRUE,-10,40,real,1,feelings_themalone,-20,"Other apologizes first, I do not",unilateral,other_first
+R_2vex3Z2Y8UJUhho,TRUE,TRUE,-10,40,real,1,feelings_boththemfirst,0,"Other apologizes first, then I apologize",mutual,other_first
+R_2vex3Z2Y8UJUhho,TRUE,TRUE,-10,40,real,1,feelings_neither,-10,Neither apologizes,neither,none
+R_2vex3Z2Y8UJUhho,TRUE,TRUE,-10,40,real,1,feelings_youaloneforgiven,-10,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_UWk2HHPXa0vxJEB,TRUE,TRUE,25,75,real,1,feelings_youalone,10,"I apologize first, other does not",unilateral,self_first
+R_UWk2HHPXa0vxJEB,TRUE,TRUE,25,75,real,1,feelings_bothyoufirst,20,"I apologize first, then other apologizes",mutual,self_first
+R_UWk2HHPXa0vxJEB,TRUE,TRUE,25,75,real,1,feelings_themalone,-19,"Other apologizes first, I do not",unilateral,other_first
+R_UWk2HHPXa0vxJEB,TRUE,TRUE,25,75,real,1,feelings_boththemfirst,30,"Other apologizes first, then I apologize",mutual,other_first
+R_UWk2HHPXa0vxJEB,TRUE,TRUE,25,75,real,1,feelings_neither,-20,Neither apologizes,neither,none
+R_UWk2HHPXa0vxJEB,TRUE,TRUE,25,75,real,1,feelings_youaloneforgiven,5,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_3dNe0dpi9xqXJE4,TRUE,TRUE,0,50,real,1,feelings_youalone,-22,"I apologize first, other does not",unilateral,self_first
+R_3dNe0dpi9xqXJE4,TRUE,TRUE,0,50,real,1,feelings_bothyoufirst,15,"I apologize first, then other apologizes",mutual,self_first
+R_3dNe0dpi9xqXJE4,TRUE,TRUE,0,50,real,1,feelings_themalone,-1,"Other apologizes first, I do not",unilateral,other_first
+R_3dNe0dpi9xqXJE4,TRUE,TRUE,0,50,real,1,feelings_boththemfirst,12,"Other apologizes first, then I apologize",mutual,other_first
+R_3dNe0dpi9xqXJE4,TRUE,TRUE,0,50,real,1,feelings_neither,-24,Neither apologizes,neither,none
+R_3dNe0dpi9xqXJE4,TRUE,TRUE,0,50,real,1,feelings_youaloneforgiven,-29,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_uthr22c7jsHMSUp,TRUE,TRUE,-4,46,real,1,feelings_youalone,-10,"I apologize first, other does not",unilateral,self_first
+R_uthr22c7jsHMSUp,TRUE,TRUE,-4,46,real,1,feelings_bothyoufirst,10,"I apologize first, then other apologizes",mutual,self_first
+R_uthr22c7jsHMSUp,TRUE,TRUE,-4,46,real,1,feelings_themalone,-4,"Other apologizes first, I do not",unilateral,other_first
+R_uthr22c7jsHMSUp,TRUE,TRUE,-4,46,real,1,feelings_boththemfirst,7,"Other apologizes first, then I apologize",mutual,other_first
+R_uthr22c7jsHMSUp,TRUE,TRUE,-4,46,real,1,feelings_neither,4,Neither apologizes,neither,none
+R_uthr22c7jsHMSUp,TRUE,TRUE,-4,46,real,1,feelings_youaloneforgiven,12,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_bBJ75JWs3W8KSgF,TRUE,FALSE,-19,31,real,1,feelings_youalone,-30,"I apologize first, other does not",unilateral,self_first
+R_bBJ75JWs3W8KSgF,TRUE,FALSE,-19,31,real,1,feelings_bothyoufirst,8,"I apologize first, then other apologizes",mutual,self_first
+R_bBJ75JWs3W8KSgF,TRUE,FALSE,-19,31,real,1,feelings_themalone,1,"Other apologizes first, I do not",unilateral,other_first
+R_bBJ75JWs3W8KSgF,TRUE,FALSE,-19,31,real,1,feelings_boththemfirst,20,"Other apologizes first, then I apologize",mutual,other_first
+R_bBJ75JWs3W8KSgF,TRUE,FALSE,-19,31,real,1,feelings_neither,-20,Neither apologizes,neither,none
+R_bBJ75JWs3W8KSgF,TRUE,FALSE,-19,31,real,1,feelings_youaloneforgiven,-30,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_3LfYCLoxkitDLMZ,FALSE,FALSE,-15,35,real,1,feelings_youalone,-20,"I apologize first, other does not",unilateral,self_first
+R_3LfYCLoxkitDLMZ,FALSE,FALSE,-15,35,real,1,feelings_bothyoufirst,-10,"I apologize first, then other apologizes",mutual,self_first
+R_3LfYCLoxkitDLMZ,FALSE,FALSE,-15,35,real,1,feelings_themalone,-20,"Other apologizes first, I do not",unilateral,other_first
+R_3LfYCLoxkitDLMZ,FALSE,FALSE,-15,35,real,1,feelings_boththemfirst,9,"Other apologizes first, then I apologize",mutual,other_first
+R_3LfYCLoxkitDLMZ,FALSE,FALSE,-15,35,real,1,feelings_neither,-10,Neither apologizes,neither,none
+R_3LfYCLoxkitDLMZ,FALSE,FALSE,-15,35,real,1,feelings_youaloneforgiven,-10,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_3p4o7ohyg5szGL4,TRUE,TRUE,9,59,imagined,0,feelings_youalone,-10,"I apologize first, other does not",unilateral,self_first
+R_3p4o7ohyg5szGL4,TRUE,TRUE,9,59,imagined,0,feelings_bothyoufirst,10,"I apologize first, then other apologizes",mutual,self_first
+R_3p4o7ohyg5szGL4,TRUE,TRUE,9,59,imagined,0,feelings_themalone,10,"Other apologizes first, I do not",unilateral,other_first
+R_3p4o7ohyg5szGL4,TRUE,TRUE,9,59,imagined,0,feelings_boththemfirst,-10,"Other apologizes first, then I apologize",mutual,other_first
+R_3p4o7ohyg5szGL4,TRUE,TRUE,9,59,imagined,0,feelings_neither,20,Neither apologizes,neither,none
+R_3p4o7ohyg5szGL4,TRUE,TRUE,9,59,imagined,0,feelings_youaloneforgiven,-30,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_usTgGl3mSlaJR29,TRUE,TRUE,-20,30,real,1,feelings_youalone,-19,"I apologize first, other does not",unilateral,self_first
+R_usTgGl3mSlaJR29,TRUE,TRUE,-20,30,real,1,feelings_bothyoufirst,27,"I apologize first, then other apologizes",mutual,self_first
+R_usTgGl3mSlaJR29,TRUE,TRUE,-20,30,real,1,feelings_themalone,-30,"Other apologizes first, I do not",unilateral,other_first
+R_usTgGl3mSlaJR29,TRUE,TRUE,-20,30,real,1,feelings_boththemfirst,30,"Other apologizes first, then I apologize",mutual,other_first
+R_usTgGl3mSlaJR29,TRUE,TRUE,-20,30,real,1,feelings_neither,-8,Neither apologizes,neither,none
+R_usTgGl3mSlaJR29,TRUE,TRUE,-20,30,real,1,feelings_youaloneforgiven,22,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_2upnP4bUI9b7rme,TRUE,TRUE,2,52,real,1,feelings_youalone,-21,"I apologize first, other does not",unilateral,self_first
+R_2upnP4bUI9b7rme,TRUE,TRUE,2,52,real,1,feelings_bothyoufirst,5,"I apologize first, then other apologizes",mutual,self_first
+R_2upnP4bUI9b7rme,TRUE,TRUE,2,52,real,1,feelings_themalone,-21,"Other apologizes first, I do not",unilateral,other_first
+R_2upnP4bUI9b7rme,TRUE,TRUE,2,52,real,1,feelings_boththemfirst,5,"Other apologizes first, then I apologize",mutual,other_first
+R_2upnP4bUI9b7rme,TRUE,TRUE,2,52,real,1,feelings_neither,-10,Neither apologizes,neither,none
+R_2upnP4bUI9b7rme,TRUE,TRUE,2,52,real,1,feelings_youaloneforgiven,-6,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_5z2POi5gxcMK2Wd,TRUE,TRUE,-40,10,real,1,feelings_youalone,-30,"I apologize first, other does not",unilateral,self_first
+R_5z2POi5gxcMK2Wd,TRUE,TRUE,-40,10,real,1,feelings_bothyoufirst,-20,"I apologize first, then other apologizes",mutual,self_first
+R_5z2POi5gxcMK2Wd,TRUE,TRUE,-40,10,real,1,feelings_themalone,10,"Other apologizes first, I do not",unilateral,other_first
+R_5z2POi5gxcMK2Wd,TRUE,TRUE,-40,10,real,1,feelings_boththemfirst,25,"Other apologizes first, then I apologize",mutual,other_first
+R_5z2POi5gxcMK2Wd,TRUE,TRUE,-40,10,real,1,feelings_neither,-5,Neither apologizes,neither,none
+R_5z2POi5gxcMK2Wd,TRUE,TRUE,-40,10,real,1,feelings_youaloneforgiven,-11,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_2TAhz04fPgBTknX,TRUE,TRUE,-14,36,real,1,feelings_youalone,-20,"I apologize first, other does not",unilateral,self_first
+R_2TAhz04fPgBTknX,TRUE,TRUE,-14,36,real,1,feelings_bothyoufirst,21,"I apologize first, then other apologizes",mutual,self_first
+R_2TAhz04fPgBTknX,TRUE,TRUE,-14,36,real,1,feelings_themalone,30,"Other apologizes first, I do not",unilateral,other_first
+R_2TAhz04fPgBTknX,TRUE,TRUE,-14,36,real,1,feelings_boththemfirst,20,"Other apologizes first, then I apologize",mutual,other_first
+R_2TAhz04fPgBTknX,TRUE,TRUE,-14,36,real,1,feelings_neither,-30,Neither apologizes,neither,none
+R_2TAhz04fPgBTknX,TRUE,TRUE,-14,36,real,1,feelings_youaloneforgiven,-30,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_12otYqdSDsG4eL6,TRUE,TRUE,-35,15,imagined,0,feelings_youalone,-30,"I apologize first, other does not",unilateral,self_first
+R_12otYqdSDsG4eL6,TRUE,TRUE,-35,15,imagined,0,feelings_bothyoufirst,0,"I apologize first, then other apologizes",mutual,self_first
+R_12otYqdSDsG4eL6,TRUE,TRUE,-35,15,imagined,0,feelings_themalone,10,"Other apologizes first, I do not",unilateral,other_first
+R_12otYqdSDsG4eL6,TRUE,TRUE,-35,15,imagined,0,feelings_boththemfirst,30,"Other apologizes first, then I apologize",mutual,other_first
+R_12otYqdSDsG4eL6,TRUE,TRUE,-35,15,imagined,0,feelings_neither,-15,Neither apologizes,neither,none
+R_12otYqdSDsG4eL6,TRUE,TRUE,-35,15,imagined,0,feelings_youaloneforgiven,-30,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_10DwSyWiQFkUfmC,TRUE,TRUE,-10,40,imagined,0,feelings_youalone,-9,"I apologize first, other does not",unilateral,self_first
+R_10DwSyWiQFkUfmC,TRUE,TRUE,-10,40,imagined,0,feelings_bothyoufirst,21,"I apologize first, then other apologizes",mutual,self_first
+R_10DwSyWiQFkUfmC,TRUE,TRUE,-10,40,imagined,0,feelings_themalone,-20,"Other apologizes first, I do not",unilateral,other_first
+R_10DwSyWiQFkUfmC,TRUE,TRUE,-10,40,imagined,0,feelings_boththemfirst,22,"Other apologizes first, then I apologize",mutual,other_first
+R_10DwSyWiQFkUfmC,TRUE,TRUE,-10,40,imagined,0,feelings_neither,-9,Neither apologizes,neither,none
+R_10DwSyWiQFkUfmC,TRUE,TRUE,-10,40,imagined,0,feelings_youaloneforgiven,-19,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_OKg5nrDTv3nxWy5,TRUE,TRUE,-11,39,real,1,feelings_youalone,-30,"I apologize first, other does not",unilateral,self_first
+R_OKg5nrDTv3nxWy5,TRUE,TRUE,-11,39,real,1,feelings_bothyoufirst,-9,"I apologize first, then other apologizes",mutual,self_first
+R_OKg5nrDTv3nxWy5,TRUE,TRUE,-11,39,real,1,feelings_themalone,-24,"Other apologizes first, I do not",unilateral,other_first
+R_OKg5nrDTv3nxWy5,TRUE,TRUE,-11,39,real,1,feelings_boththemfirst,30,"Other apologizes first, then I apologize",mutual,other_first
+R_OKg5nrDTv3nxWy5,TRUE,TRUE,-11,39,real,1,feelings_neither,-24,Neither apologizes,neither,none
+R_OKg5nrDTv3nxWy5,TRUE,TRUE,-11,39,real,1,feelings_youaloneforgiven,0,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_77KaqUoB8OLZETT,TRUE,TRUE,0,50,real,1,feelings_youalone,-10,"I apologize first, other does not",unilateral,self_first
+R_77KaqUoB8OLZETT,TRUE,TRUE,0,50,real,1,feelings_bothyoufirst,20,"I apologize first, then other apologizes",mutual,self_first
+R_77KaqUoB8OLZETT,TRUE,TRUE,0,50,real,1,feelings_themalone,-10,"Other apologizes first, I do not",unilateral,other_first
+R_77KaqUoB8OLZETT,TRUE,TRUE,0,50,real,1,feelings_boththemfirst,20,"Other apologizes first, then I apologize",mutual,other_first
+R_77KaqUoB8OLZETT,TRUE,TRUE,0,50,real,1,feelings_neither,-5,Neither apologizes,neither,none
+R_77KaqUoB8OLZETT,TRUE,TRUE,0,50,real,1,feelings_youaloneforgiven,-30,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_BzjjEa5gf8TqZtn,TRUE,TRUE,-20,30,real,1,feelings_youalone,-25,"I apologize first, other does not",unilateral,self_first
+R_BzjjEa5gf8TqZtn,TRUE,TRUE,-20,30,real,1,feelings_bothyoufirst,8,"I apologize first, then other apologizes",mutual,self_first
+R_BzjjEa5gf8TqZtn,TRUE,TRUE,-20,30,real,1,feelings_themalone,20,"Other apologizes first, I do not",unilateral,other_first
+R_BzjjEa5gf8TqZtn,TRUE,TRUE,-20,30,real,1,feelings_boththemfirst,15,"Other apologizes first, then I apologize",mutual,other_first
+R_BzjjEa5gf8TqZtn,TRUE,TRUE,-20,30,real,1,feelings_neither,-10,Neither apologizes,neither,none
+R_BzjjEa5gf8TqZtn,TRUE,TRUE,-20,30,real,1,feelings_youaloneforgiven,5,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_273xTAn2WljgUWL,TRUE,TRUE,-24,26,real,1,feelings_youalone,-20,"I apologize first, other does not",unilateral,self_first
+R_273xTAn2WljgUWL,TRUE,TRUE,-24,26,real,1,feelings_bothyoufirst,8,"I apologize first, then other apologizes",mutual,self_first
+R_273xTAn2WljgUWL,TRUE,TRUE,-24,26,real,1,feelings_themalone,-5,"Other apologizes first, I do not",unilateral,other_first
+R_273xTAn2WljgUWL,TRUE,TRUE,-24,26,real,1,feelings_boththemfirst,13,"Other apologizes first, then I apologize",mutual,other_first
+R_273xTAn2WljgUWL,TRUE,TRUE,-24,26,real,1,feelings_neither,4,Neither apologizes,neither,none
+R_273xTAn2WljgUWL,TRUE,TRUE,-24,26,real,1,feelings_youaloneforgiven,6,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_1JIQqdbwA1pNry2,TRUE,TRUE,-20,30,real,1,feelings_youalone,-30,"I apologize first, other does not",unilateral,self_first
+R_1JIQqdbwA1pNry2,TRUE,TRUE,-20,30,real,1,feelings_bothyoufirst,12,"I apologize first, then other apologizes",mutual,self_first
+R_1JIQqdbwA1pNry2,TRUE,TRUE,-20,30,real,1,feelings_themalone,-8,"Other apologizes first, I do not",unilateral,other_first
+R_1JIQqdbwA1pNry2,TRUE,TRUE,-20,30,real,1,feelings_boththemfirst,22,"Other apologizes first, then I apologize",mutual,other_first
+R_1JIQqdbwA1pNry2,TRUE,TRUE,-20,30,real,1,feelings_neither,-20,Neither apologizes,neither,none
+R_1JIQqdbwA1pNry2,TRUE,TRUE,-20,30,real,1,feelings_youaloneforgiven,-30,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_SOgj4BCERGRfTnH,TRUE,TRUE,-8,42,real,1,feelings_youalone,-8,"I apologize first, other does not",unilateral,self_first
+R_SOgj4BCERGRfTnH,TRUE,TRUE,-8,42,real,1,feelings_bothyoufirst,10,"I apologize first, then other apologizes",mutual,self_first
+R_SOgj4BCERGRfTnH,TRUE,TRUE,-8,42,real,1,feelings_themalone,-10,"Other apologizes first, I do not",unilateral,other_first
+R_SOgj4BCERGRfTnH,TRUE,TRUE,-8,42,real,1,feelings_boththemfirst,8,"Other apologizes first, then I apologize",mutual,other_first
+R_SOgj4BCERGRfTnH,TRUE,TRUE,-8,42,real,1,feelings_neither,0,Neither apologizes,neither,none
+R_SOgj4BCERGRfTnH,TRUE,TRUE,-8,42,real,1,feelings_youaloneforgiven,-8,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_3EZulh7dYfh7e5v,TRUE,TRUE,-10,40,real,1,feelings_youalone,-20,"I apologize first, other does not",unilateral,self_first
+R_3EZulh7dYfh7e5v,TRUE,TRUE,-10,40,real,1,feelings_bothyoufirst,10,"I apologize first, then other apologizes",mutual,self_first
+R_3EZulh7dYfh7e5v,TRUE,TRUE,-10,40,real,1,feelings_themalone,-10,"Other apologizes first, I do not",unilateral,other_first
+R_3EZulh7dYfh7e5v,TRUE,TRUE,-10,40,real,1,feelings_boththemfirst,20,"Other apologizes first, then I apologize",mutual,other_first
+R_3EZulh7dYfh7e5v,TRUE,TRUE,-10,40,real,1,feelings_neither,-30,Neither apologizes,neither,none
+R_3EZulh7dYfh7e5v,TRUE,TRUE,-10,40,real,1,feelings_youaloneforgiven,-20,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_ZES96x08QlcbdHb,TRUE,TRUE,-19,31,real,1,feelings_youalone,-30,"I apologize first, other does not",unilateral,self_first
+R_ZES96x08QlcbdHb,TRUE,TRUE,-19,31,real,1,feelings_bothyoufirst,-30,"I apologize first, then other apologizes",mutual,self_first
+R_ZES96x08QlcbdHb,TRUE,TRUE,-19,31,real,1,feelings_themalone,8,"Other apologizes first, I do not",unilateral,other_first
+R_ZES96x08QlcbdHb,TRUE,TRUE,-19,31,real,1,feelings_boththemfirst,3,"Other apologizes first, then I apologize",mutual,other_first
+R_ZES96x08QlcbdHb,TRUE,TRUE,-19,31,real,1,feelings_neither,-10,Neither apologizes,neither,none
+R_ZES96x08QlcbdHb,TRUE,TRUE,-19,31,real,1,feelings_youaloneforgiven,-30,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_a3kWV0bdhtavauZ,TRUE,TRUE,-15,35,real,1,feelings_youalone,-30,"I apologize first, other does not",unilateral,self_first
+R_a3kWV0bdhtavauZ,TRUE,TRUE,-15,35,real,1,feelings_bothyoufirst,20,"I apologize first, then other apologizes",mutual,self_first
+R_a3kWV0bdhtavauZ,TRUE,TRUE,-15,35,real,1,feelings_themalone,-15,"Other apologizes first, I do not",unilateral,other_first
+R_a3kWV0bdhtavauZ,TRUE,TRUE,-15,35,real,1,feelings_boththemfirst,25,"Other apologizes first, then I apologize",mutual,other_first
+R_a3kWV0bdhtavauZ,TRUE,TRUE,-15,35,real,1,feelings_neither,-20,Neither apologizes,neither,none
+R_a3kWV0bdhtavauZ,TRUE,TRUE,-15,35,real,1,feelings_youaloneforgiven,-20,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_Wed63N1m4iQgk6J,TRUE,TRUE,0,50,real,1,feelings_youalone,-10,"I apologize first, other does not",unilateral,self_first
+R_Wed63N1m4iQgk6J,TRUE,TRUE,0,50,real,1,feelings_bothyoufirst,10,"I apologize first, then other apologizes",mutual,self_first
+R_Wed63N1m4iQgk6J,TRUE,TRUE,0,50,real,1,feelings_themalone,-10,"Other apologizes first, I do not",unilateral,other_first
+R_Wed63N1m4iQgk6J,TRUE,TRUE,0,50,real,1,feelings_boththemfirst,1,"Other apologizes first, then I apologize",mutual,other_first
+R_Wed63N1m4iQgk6J,TRUE,TRUE,0,50,real,1,feelings_neither,-21,Neither apologizes,neither,none
+R_Wed63N1m4iQgk6J,TRUE,TRUE,0,50,real,1,feelings_youaloneforgiven,-5,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_32L94V1ABVjNneH,TRUE,TRUE,-41,9,real,1,feelings_youalone,-30,"I apologize first, other does not",unilateral,self_first
+R_32L94V1ABVjNneH,TRUE,TRUE,-41,9,real,1,feelings_bothyoufirst,-24,"I apologize first, then other apologizes",mutual,self_first
+R_32L94V1ABVjNneH,TRUE,TRUE,-41,9,real,1,feelings_themalone,30,"Other apologizes first, I do not",unilateral,other_first
+R_32L94V1ABVjNneH,TRUE,TRUE,-41,9,real,1,feelings_boththemfirst,15,"Other apologizes first, then I apologize",mutual,other_first
+R_32L94V1ABVjNneH,TRUE,TRUE,-41,9,real,1,feelings_neither,-19,Neither apologizes,neither,none
+R_32L94V1ABVjNneH,TRUE,TRUE,-41,9,real,1,feelings_youaloneforgiven,-24,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_1FnUWdIjDGzgQDj,TRUE,TRUE,-40,10,real,1,feelings_youalone,-30,"I apologize first, other does not",unilateral,self_first
+R_1FnUWdIjDGzgQDj,TRUE,TRUE,-40,10,real,1,feelings_bothyoufirst,25,"I apologize first, then other apologizes",mutual,self_first
+R_1FnUWdIjDGzgQDj,TRUE,TRUE,-40,10,real,1,feelings_themalone,-30,"Other apologizes first, I do not",unilateral,other_first
+R_1FnUWdIjDGzgQDj,TRUE,TRUE,-40,10,real,1,feelings_boththemfirst,30,"Other apologizes first, then I apologize",mutual,other_first
+R_1FnUWdIjDGzgQDj,TRUE,TRUE,-40,10,real,1,feelings_neither,-25,Neither apologizes,neither,none
+R_1FnUWdIjDGzgQDj,TRUE,TRUE,-40,10,real,1,feelings_youaloneforgiven,-30,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_1OOE61GORoVMF3d,TRUE,TRUE,4,54,real,1,feelings_youalone,-13,"I apologize first, other does not",unilateral,self_first
+R_1OOE61GORoVMF3d,TRUE,TRUE,4,54,real,1,feelings_bothyoufirst,12,"I apologize first, then other apologizes",mutual,self_first
+R_1OOE61GORoVMF3d,TRUE,TRUE,4,54,real,1,feelings_themalone,-23,"Other apologizes first, I do not",unilateral,other_first
+R_1OOE61GORoVMF3d,TRUE,TRUE,4,54,real,1,feelings_boththemfirst,21,"Other apologizes first, then I apologize",mutual,other_first
+R_1OOE61GORoVMF3d,TRUE,TRUE,4,54,real,1,feelings_neither,-30,Neither apologizes,neither,none
+R_1OOE61GORoVMF3d,TRUE,TRUE,4,54,real,1,feelings_youaloneforgiven,-7,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_3CHIMCYzzRNDJhL,TRUE,TRUE,-5,45,real,1,feelings_youalone,-30,"I apologize first, other does not",unilateral,self_first
+R_3CHIMCYzzRNDJhL,TRUE,TRUE,-5,45,real,1,feelings_bothyoufirst,4,"I apologize first, then other apologizes",mutual,self_first
+R_3CHIMCYzzRNDJhL,TRUE,TRUE,-5,45,real,1,feelings_themalone,-27,"Other apologizes first, I do not",unilateral,other_first
+R_3CHIMCYzzRNDJhL,TRUE,TRUE,-5,45,real,1,feelings_boththemfirst,17,"Other apologizes first, then I apologize",mutual,other_first
+R_3CHIMCYzzRNDJhL,TRUE,TRUE,-5,45,real,1,feelings_neither,-23,Neither apologizes,neither,none
+R_3CHIMCYzzRNDJhL,TRUE,TRUE,-5,45,real,1,feelings_youaloneforgiven,-30,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_3ETfgmPWW135fiC,TRUE,TRUE,-10,40,real,1,feelings_youalone,-20,"I apologize first, other does not",unilateral,self_first
+R_3ETfgmPWW135fiC,TRUE,TRUE,-10,40,real,1,feelings_bothyoufirst,-10,"I apologize first, then other apologizes",mutual,self_first
+R_3ETfgmPWW135fiC,TRUE,TRUE,-10,40,real,1,feelings_themalone,-30,"Other apologizes first, I do not",unilateral,other_first
+R_3ETfgmPWW135fiC,TRUE,TRUE,-10,40,real,1,feelings_boththemfirst,-20,"Other apologizes first, then I apologize",mutual,other_first
+R_3ETfgmPWW135fiC,TRUE,TRUE,-10,40,real,1,feelings_neither,-10,Neither apologizes,neither,none
+R_3ETfgmPWW135fiC,TRUE,TRUE,-10,40,real,1,feelings_youaloneforgiven,-30,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_1Cfpswb0QXwsb0G,TRUE,TRUE,1,51,real,1,feelings_youalone,9,"I apologize first, other does not",unilateral,self_first
+R_1Cfpswb0QXwsb0G,TRUE,TRUE,1,51,real,1,feelings_bothyoufirst,30,"I apologize first, then other apologizes",mutual,self_first
+R_1Cfpswb0QXwsb0G,TRUE,TRUE,1,51,real,1,feelings_themalone,-21,"Other apologizes first, I do not",unilateral,other_first
+R_1Cfpswb0QXwsb0G,TRUE,TRUE,1,51,real,1,feelings_boththemfirst,30,"Other apologizes first, then I apologize",mutual,other_first
+R_1Cfpswb0QXwsb0G,TRUE,TRUE,1,51,real,1,feelings_neither,-2,Neither apologizes,neither,none
+R_1Cfpswb0QXwsb0G,TRUE,TRUE,1,51,real,1,feelings_youaloneforgiven,-7,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_ZKKTKeRlmIFd5Qt,TRUE,TRUE,-11,39,real,1,feelings_youalone,-5,"I apologize first, other does not",unilateral,self_first
+R_ZKKTKeRlmIFd5Qt,TRUE,TRUE,-11,39,real,1,feelings_bothyoufirst,26,"I apologize first, then other apologizes",mutual,self_first
+R_ZKKTKeRlmIFd5Qt,TRUE,TRUE,-11,39,real,1,feelings_themalone,-6,"Other apologizes first, I do not",unilateral,other_first
+R_ZKKTKeRlmIFd5Qt,TRUE,TRUE,-11,39,real,1,feelings_boththemfirst,27,"Other apologizes first, then I apologize",mutual,other_first
+R_ZKKTKeRlmIFd5Qt,TRUE,TRUE,-11,39,real,1,feelings_neither,-20,Neither apologizes,neither,none
+R_ZKKTKeRlmIFd5Qt,TRUE,TRUE,-11,39,real,1,feelings_youaloneforgiven,5,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_WksLSD9WfbhPNIJ,TRUE,TRUE,-31,19,real,1,feelings_youalone,-20,"I apologize first, other does not",unilateral,self_first
+R_WksLSD9WfbhPNIJ,TRUE,TRUE,-31,19,real,1,feelings_bothyoufirst,-10,"I apologize first, then other apologizes",mutual,self_first
+R_WksLSD9WfbhPNIJ,TRUE,TRUE,-31,19,real,1,feelings_themalone,-10,"Other apologizes first, I do not",unilateral,other_first
+R_WksLSD9WfbhPNIJ,TRUE,TRUE,-31,19,real,1,feelings_boththemfirst,10,"Other apologizes first, then I apologize",mutual,other_first
+R_WksLSD9WfbhPNIJ,TRUE,TRUE,-31,19,real,1,feelings_neither,0,Neither apologizes,neither,none
+R_WksLSD9WfbhPNIJ,TRUE,TRUE,-31,19,real,1,feelings_youaloneforgiven,-30,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_vYWE7gCy9xrbATn,TRUE,TRUE,-10,40,real,1,feelings_youalone,-30,"I apologize first, other does not",unilateral,self_first
+R_vYWE7gCy9xrbATn,TRUE,TRUE,-10,40,real,1,feelings_bothyoufirst,11,"I apologize first, then other apologizes",mutual,self_first
+R_vYWE7gCy9xrbATn,TRUE,TRUE,-10,40,real,1,feelings_themalone,20,"Other apologizes first, I do not",unilateral,other_first
+R_vYWE7gCy9xrbATn,TRUE,TRUE,-10,40,real,1,feelings_boththemfirst,30,"Other apologizes first, then I apologize",mutual,other_first
+R_vYWE7gCy9xrbATn,TRUE,TRUE,-10,40,real,1,feelings_neither,-20,Neither apologizes,neither,none
+R_vYWE7gCy9xrbATn,TRUE,TRUE,-10,40,real,1,feelings_youaloneforgiven,1,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_A6Zu0rorxHYhIBP,TRUE,TRUE,-41,9,real,1,feelings_youalone,-30,"I apologize first, other does not",unilateral,self_first
+R_A6Zu0rorxHYhIBP,TRUE,TRUE,-41,9,real,1,feelings_bothyoufirst,11,"I apologize first, then other apologizes",mutual,self_first
+R_A6Zu0rorxHYhIBP,TRUE,TRUE,-41,9,real,1,feelings_themalone,0,"Other apologizes first, I do not",unilateral,other_first
+R_A6Zu0rorxHYhIBP,TRUE,TRUE,-41,9,real,1,feelings_boththemfirst,21,"Other apologizes first, then I apologize",mutual,other_first
+R_A6Zu0rorxHYhIBP,TRUE,TRUE,-41,9,real,1,feelings_neither,-21,Neither apologizes,neither,none
+R_A6Zu0rorxHYhIBP,TRUE,TRUE,-41,9,real,1,feelings_youaloneforgiven,-10,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_3PhRuMLpU5sBRM9,TRUE,TRUE,-17,33,real,1,feelings_youalone,-14,"I apologize first, other does not",unilateral,self_first
+R_3PhRuMLpU5sBRM9,TRUE,TRUE,-17,33,real,1,feelings_bothyoufirst,5,"I apologize first, then other apologizes",mutual,self_first
+R_3PhRuMLpU5sBRM9,TRUE,TRUE,-17,33,real,1,feelings_themalone,11,"Other apologizes first, I do not",unilateral,other_first
+R_3PhRuMLpU5sBRM9,TRUE,TRUE,-17,33,real,1,feelings_boththemfirst,10,"Other apologizes first, then I apologize",mutual,other_first
+R_3PhRuMLpU5sBRM9,TRUE,TRUE,-17,33,real,1,feelings_neither,-6,Neither apologizes,neither,none
+R_3PhRuMLpU5sBRM9,TRUE,TRUE,-17,33,real,1,feelings_youaloneforgiven,-15,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_5tlX2wY5HSe2xLX,TRUE,TRUE,10,60,real,1,feelings_youalone,-8,"I apologize first, other does not",unilateral,self_first
+R_5tlX2wY5HSe2xLX,TRUE,TRUE,10,60,real,1,feelings_bothyoufirst,19,"I apologize first, then other apologizes",mutual,self_first
+R_5tlX2wY5HSe2xLX,TRUE,TRUE,10,60,real,1,feelings_themalone,11,"Other apologizes first, I do not",unilateral,other_first
+R_5tlX2wY5HSe2xLX,TRUE,TRUE,10,60,real,1,feelings_boththemfirst,19,"Other apologizes first, then I apologize",mutual,other_first
+R_5tlX2wY5HSe2xLX,TRUE,TRUE,10,60,real,1,feelings_neither,-8,Neither apologizes,neither,none
+R_5tlX2wY5HSe2xLX,TRUE,TRUE,10,60,real,1,feelings_youaloneforgiven,9,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_27fbq5Sq2Fb0Kfw,TRUE,TRUE,5,55,real,1,feelings_youalone,-17,"I apologize first, other does not",unilateral,self_first
+R_27fbq5Sq2Fb0Kfw,TRUE,TRUE,5,55,real,1,feelings_bothyoufirst,-5,"I apologize first, then other apologizes",mutual,self_first
+R_27fbq5Sq2Fb0Kfw,TRUE,TRUE,5,55,real,1,feelings_themalone,-5,"Other apologizes first, I do not",unilateral,other_first
+R_27fbq5Sq2Fb0Kfw,TRUE,TRUE,5,55,real,1,feelings_boththemfirst,5,"Other apologizes first, then I apologize",mutual,other_first
+R_27fbq5Sq2Fb0Kfw,TRUE,TRUE,5,55,real,1,feelings_neither,-13,Neither apologizes,neither,none
+R_27fbq5Sq2Fb0Kfw,TRUE,TRUE,5,55,real,1,feelings_youaloneforgiven,-20,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_2qgalYmWM5Dtnij,TRUE,TRUE,-30,20,real,1,feelings_youalone,-30,"I apologize first, other does not",unilateral,self_first
+R_2qgalYmWM5Dtnij,TRUE,TRUE,-30,20,real,1,feelings_bothyoufirst,-10,"I apologize first, then other apologizes",mutual,self_first
+R_2qgalYmWM5Dtnij,TRUE,TRUE,-30,20,real,1,feelings_themalone,20,"Other apologizes first, I do not",unilateral,other_first
+R_2qgalYmWM5Dtnij,TRUE,TRUE,-30,20,real,1,feelings_boththemfirst,30,"Other apologizes first, then I apologize",mutual,other_first
+R_2qgalYmWM5Dtnij,TRUE,TRUE,-30,20,real,1,feelings_neither,-30,Neither apologizes,neither,none
+R_2qgalYmWM5Dtnij,TRUE,TRUE,-30,20,real,1,feelings_youaloneforgiven,-30,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_1jcvOpgQYYmOomi,TRUE,TRUE,-50,0,real,1,feelings_youalone,-30,"I apologize first, other does not",unilateral,self_first
+R_1jcvOpgQYYmOomi,TRUE,TRUE,-50,0,real,1,feelings_bothyoufirst,11,"I apologize first, then other apologizes",mutual,self_first
+R_1jcvOpgQYYmOomi,TRUE,TRUE,-50,0,real,1,feelings_themalone,4,"Other apologizes first, I do not",unilateral,other_first
+R_1jcvOpgQYYmOomi,TRUE,TRUE,-50,0,real,1,feelings_boththemfirst,12,"Other apologizes first, then I apologize",mutual,other_first
+R_1jcvOpgQYYmOomi,TRUE,TRUE,-50,0,real,1,feelings_neither,-9,Neither apologizes,neither,none
+R_1jcvOpgQYYmOomi,TRUE,TRUE,-50,0,real,1,feelings_youaloneforgiven,-30,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_12uwCH32lRR4nNJ,TRUE,TRUE,-25,25,real,1,feelings_youalone,-30,"I apologize first, other does not",unilateral,self_first
+R_12uwCH32lRR4nNJ,TRUE,TRUE,-25,25,real,1,feelings_bothyoufirst,20,"I apologize first, then other apologizes",mutual,self_first
+R_12uwCH32lRR4nNJ,TRUE,TRUE,-25,25,real,1,feelings_themalone,-21,"Other apologizes first, I do not",unilateral,other_first
+R_12uwCH32lRR4nNJ,TRUE,TRUE,-25,25,real,1,feelings_boththemfirst,30,"Other apologizes first, then I apologize",mutual,other_first
+R_12uwCH32lRR4nNJ,TRUE,TRUE,-25,25,real,1,feelings_neither,-30,Neither apologizes,neither,none
+R_12uwCH32lRR4nNJ,TRUE,TRUE,-25,25,real,1,feelings_youaloneforgiven,-30,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_1pM9FhsANR8zYEr,TRUE,TRUE,10,60,real,1,feelings_youalone,-30,"I apologize first, other does not",unilateral,self_first
+R_1pM9FhsANR8zYEr,TRUE,TRUE,10,60,real,1,feelings_bothyoufirst,20,"I apologize first, then other apologizes",mutual,self_first
+R_1pM9FhsANR8zYEr,TRUE,TRUE,10,60,real,1,feelings_themalone,-30,"Other apologizes first, I do not",unilateral,other_first
+R_1pM9FhsANR8zYEr,TRUE,TRUE,10,60,real,1,feelings_boththemfirst,30,"Other apologizes first, then I apologize",mutual,other_first
+R_1pM9FhsANR8zYEr,TRUE,TRUE,10,60,real,1,feelings_neither,-10,Neither apologizes,neither,none
+R_1pM9FhsANR8zYEr,TRUE,TRUE,10,60,real,1,feelings_youaloneforgiven,-20,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_2xE1yatgftZbevD,TRUE,TRUE,10,60,real,1,feelings_youalone,10,"I apologize first, other does not",unilateral,self_first
+R_2xE1yatgftZbevD,TRUE,TRUE,10,60,real,1,feelings_bothyoufirst,20,"I apologize first, then other apologizes",mutual,self_first
+R_2xE1yatgftZbevD,TRUE,TRUE,10,60,real,1,feelings_themalone,20,"Other apologizes first, I do not",unilateral,other_first
+R_2xE1yatgftZbevD,TRUE,TRUE,10,60,real,1,feelings_boththemfirst,20,"Other apologizes first, then I apologize",mutual,other_first
+R_2xE1yatgftZbevD,TRUE,TRUE,10,60,real,1,feelings_neither,-5,Neither apologizes,neither,none
+R_2xE1yatgftZbevD,TRUE,TRUE,10,60,real,1,feelings_youaloneforgiven,20,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_p6QGE8zYNW6CJ2h,TRUE,TRUE,-7,43,imagined,0,feelings_youalone,-6,"I apologize first, other does not",unilateral,self_first
+R_p6QGE8zYNW6CJ2h,TRUE,TRUE,-7,43,imagined,0,feelings_bothyoufirst,20,"I apologize first, then other apologizes",mutual,self_first
+R_p6QGE8zYNW6CJ2h,TRUE,TRUE,-7,43,imagined,0,feelings_themalone,-11,"Other apologizes first, I do not",unilateral,other_first
+R_p6QGE8zYNW6CJ2h,TRUE,TRUE,-7,43,imagined,0,feelings_boththemfirst,26,"Other apologizes first, then I apologize",mutual,other_first
+R_p6QGE8zYNW6CJ2h,TRUE,TRUE,-7,43,imagined,0,feelings_neither,-18,Neither apologizes,neither,none
+R_p6QGE8zYNW6CJ2h,TRUE,TRUE,-7,43,imagined,0,feelings_youaloneforgiven,-7,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_T26HHaZWzroxDB7,TRUE,TRUE,-20,30,real,1,feelings_youalone,-28,"I apologize first, other does not",unilateral,self_first
+R_T26HHaZWzroxDB7,TRUE,TRUE,-20,30,real,1,feelings_bothyoufirst,13,"I apologize first, then other apologizes",mutual,self_first
+R_T26HHaZWzroxDB7,TRUE,TRUE,-20,30,real,1,feelings_themalone,5,"Other apologizes first, I do not",unilateral,other_first
+R_T26HHaZWzroxDB7,TRUE,TRUE,-20,30,real,1,feelings_boththemfirst,20,"Other apologizes first, then I apologize",mutual,other_first
+R_T26HHaZWzroxDB7,TRUE,TRUE,-20,30,real,1,feelings_neither,-26,Neither apologizes,neither,none
+R_T26HHaZWzroxDB7,TRUE,TRUE,-20,30,real,1,feelings_youaloneforgiven,-30,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_1KejhxTVvCWMuut,TRUE,TRUE,-18,32,real,1,feelings_youalone,8,"I apologize first, other does not",unilateral,self_first
+R_1KejhxTVvCWMuut,TRUE,TRUE,-18,32,real,1,feelings_bothyoufirst,18,"I apologize first, then other apologizes",mutual,self_first
+R_1KejhxTVvCWMuut,TRUE,TRUE,-18,32,real,1,feelings_themalone,10,"Other apologizes first, I do not",unilateral,other_first
+R_1KejhxTVvCWMuut,TRUE,TRUE,-18,32,real,1,feelings_boththemfirst,23,"Other apologizes first, then I apologize",mutual,other_first
+R_1KejhxTVvCWMuut,TRUE,TRUE,-18,32,real,1,feelings_neither,-20,Neither apologizes,neither,none
+R_1KejhxTVvCWMuut,TRUE,TRUE,-18,32,real,1,feelings_youaloneforgiven,-5,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_2uCy8bWlBccC8rN,TRUE,TRUE,-20,30,real,1,feelings_youalone,-24,"I apologize first, other does not",unilateral,self_first
+R_2uCy8bWlBccC8rN,TRUE,TRUE,-20,30,real,1,feelings_bothyoufirst,-21,"I apologize first, then other apologizes",mutual,self_first
+R_2uCy8bWlBccC8rN,TRUE,TRUE,-20,30,real,1,feelings_themalone,-13,"Other apologizes first, I do not",unilateral,other_first
+R_2uCy8bWlBccC8rN,TRUE,TRUE,-20,30,real,1,feelings_boththemfirst,10,"Other apologizes first, then I apologize",mutual,other_first
+R_2uCy8bWlBccC8rN,TRUE,TRUE,-20,30,real,1,feelings_neither,-24,Neither apologizes,neither,none
+R_2uCy8bWlBccC8rN,TRUE,TRUE,-20,30,real,1,feelings_youaloneforgiven,-30,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_33kUsG7S3opMB8B,TRUE,TRUE,24,74,real,1,feelings_youalone,-25,"I apologize first, other does not",unilateral,self_first
+R_33kUsG7S3opMB8B,TRUE,TRUE,24,74,real,1,feelings_bothyoufirst,-10,"I apologize first, then other apologizes",mutual,self_first
+R_33kUsG7S3opMB8B,TRUE,TRUE,24,74,real,1,feelings_themalone,-24,"Other apologizes first, I do not",unilateral,other_first
+R_33kUsG7S3opMB8B,TRUE,TRUE,24,74,real,1,feelings_boththemfirst,20,"Other apologizes first, then I apologize",mutual,other_first
+R_33kUsG7S3opMB8B,TRUE,TRUE,24,74,real,1,feelings_neither,-30,Neither apologizes,neither,none
+R_33kUsG7S3opMB8B,TRUE,TRUE,24,74,real,1,feelings_youaloneforgiven,-22,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_3rOfClDLW3fidOW,TRUE,TRUE,0,50,real,1,feelings_youalone,-10,"I apologize first, other does not",unilateral,self_first
+R_3rOfClDLW3fidOW,TRUE,TRUE,0,50,real,1,feelings_bothyoufirst,10,"I apologize first, then other apologizes",mutual,self_first
+R_3rOfClDLW3fidOW,TRUE,TRUE,0,50,real,1,feelings_themalone,-10,"Other apologizes first, I do not",unilateral,other_first
+R_3rOfClDLW3fidOW,TRUE,TRUE,0,50,real,1,feelings_boththemfirst,20,"Other apologizes first, then I apologize",mutual,other_first
+R_3rOfClDLW3fidOW,TRUE,TRUE,0,50,real,1,feelings_neither,-5,Neither apologizes,neither,none
+R_3rOfClDLW3fidOW,TRUE,TRUE,0,50,real,1,feelings_youaloneforgiven,4,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_3JHLY68Ud2uN2cF,FALSE,FALSE,NA,NA,real,1,feelings_youalone,NA,"I apologize first, other does not",unilateral,self_first
+R_3JHLY68Ud2uN2cF,FALSE,FALSE,NA,NA,real,1,feelings_bothyoufirst,NA,"I apologize first, then other apologizes",mutual,self_first
+R_3JHLY68Ud2uN2cF,FALSE,FALSE,NA,NA,real,1,feelings_themalone,NA,"Other apologizes first, I do not",unilateral,other_first
+R_3JHLY68Ud2uN2cF,FALSE,FALSE,NA,NA,real,1,feelings_boththemfirst,NA,"Other apologizes first, then I apologize",mutual,other_first
+R_3JHLY68Ud2uN2cF,FALSE,FALSE,NA,NA,real,1,feelings_neither,NA,Neither apologizes,neither,none
+R_3JHLY68Ud2uN2cF,FALSE,FALSE,NA,NA,real,1,feelings_youaloneforgiven,NA,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_6Xt4fh0PqT0A9Cp,FALSE,FALSE,17,67,real,1,feelings_youalone,-17,"I apologize first, other does not",unilateral,self_first
+R_6Xt4fh0PqT0A9Cp,FALSE,FALSE,17,67,real,1,feelings_bothyoufirst,-6,"I apologize first, then other apologizes",mutual,self_first
+R_6Xt4fh0PqT0A9Cp,FALSE,FALSE,17,67,real,1,feelings_themalone,10,"Other apologizes first, I do not",unilateral,other_first
+R_6Xt4fh0PqT0A9Cp,FALSE,FALSE,17,67,real,1,feelings_boththemfirst,18,"Other apologizes first, then I apologize",mutual,other_first
+R_6Xt4fh0PqT0A9Cp,FALSE,FALSE,17,67,real,1,feelings_neither,-13,Neither apologizes,neither,none
+R_6Xt4fh0PqT0A9Cp,FALSE,FALSE,17,67,real,1,feelings_youaloneforgiven,11,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_wLcTjRV35PE42aZ,FALSE,FALSE,NA,NA,imagined,0,feelings_youalone,NA,"I apologize first, other does not",unilateral,self_first
+R_wLcTjRV35PE42aZ,FALSE,FALSE,NA,NA,imagined,0,feelings_bothyoufirst,NA,"I apologize first, then other apologizes",mutual,self_first
+R_wLcTjRV35PE42aZ,FALSE,FALSE,NA,NA,imagined,0,feelings_themalone,NA,"Other apologizes first, I do not",unilateral,other_first
+R_wLcTjRV35PE42aZ,FALSE,FALSE,NA,NA,imagined,0,feelings_boththemfirst,NA,"Other apologizes first, then I apologize",mutual,other_first
+R_wLcTjRV35PE42aZ,FALSE,FALSE,NA,NA,imagined,0,feelings_neither,NA,Neither apologizes,neither,none
+R_wLcTjRV35PE42aZ,FALSE,FALSE,NA,NA,imagined,0,feelings_youaloneforgiven,NA,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_1kMop5RP7hFyX6u,FALSE,FALSE,NA,NA,imagined,0,feelings_youalone,NA,"I apologize first, other does not",unilateral,self_first
+R_1kMop5RP7hFyX6u,FALSE,FALSE,NA,NA,imagined,0,feelings_bothyoufirst,NA,"I apologize first, then other apologizes",mutual,self_first
+R_1kMop5RP7hFyX6u,FALSE,FALSE,NA,NA,imagined,0,feelings_themalone,NA,"Other apologizes first, I do not",unilateral,other_first
+R_1kMop5RP7hFyX6u,FALSE,FALSE,NA,NA,imagined,0,feelings_boththemfirst,NA,"Other apologizes first, then I apologize",mutual,other_first
+R_1kMop5RP7hFyX6u,FALSE,FALSE,NA,NA,imagined,0,feelings_neither,NA,Neither apologizes,neither,none
+R_1kMop5RP7hFyX6u,FALSE,FALSE,NA,NA,imagined,0,feelings_youaloneforgiven,NA,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_2YgIoeDZxGZohPy,FALSE,FALSE,NA,NA,NA,NA,feelings_youalone,NA,"I apologize first, other does not",unilateral,self_first
+R_2YgIoeDZxGZohPy,FALSE,FALSE,NA,NA,NA,NA,feelings_bothyoufirst,NA,"I apologize first, then other apologizes",mutual,self_first
+R_2YgIoeDZxGZohPy,FALSE,FALSE,NA,NA,NA,NA,feelings_themalone,NA,"Other apologizes first, I do not",unilateral,other_first
+R_2YgIoeDZxGZohPy,FALSE,FALSE,NA,NA,NA,NA,feelings_boththemfirst,NA,"Other apologizes first, then I apologize",mutual,other_first
+R_2YgIoeDZxGZohPy,FALSE,FALSE,NA,NA,NA,NA,feelings_neither,NA,Neither apologizes,neither,none
+R_2YgIoeDZxGZohPy,FALSE,FALSE,NA,NA,NA,NA,feelings_youaloneforgiven,NA,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_SDdj6jWS60sSIpz,FALSE,FALSE,NA,NA,real,1,feelings_youalone,NA,"I apologize first, other does not",unilateral,self_first
+R_SDdj6jWS60sSIpz,FALSE,FALSE,NA,NA,real,1,feelings_bothyoufirst,NA,"I apologize first, then other apologizes",mutual,self_first
+R_SDdj6jWS60sSIpz,FALSE,FALSE,NA,NA,real,1,feelings_themalone,NA,"Other apologizes first, I do not",unilateral,other_first
+R_SDdj6jWS60sSIpz,FALSE,FALSE,NA,NA,real,1,feelings_boththemfirst,NA,"Other apologizes first, then I apologize",mutual,other_first
+R_SDdj6jWS60sSIpz,FALSE,FALSE,NA,NA,real,1,feelings_neither,NA,Neither apologizes,neither,none
+R_SDdj6jWS60sSIpz,FALSE,FALSE,NA,NA,real,1,feelings_youaloneforgiven,NA,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_2AGPmUVO4VuUVRX,FALSE,FALSE,NA,NA,imagined,0,feelings_youalone,NA,"I apologize first, other does not",unilateral,self_first
+R_2AGPmUVO4VuUVRX,FALSE,FALSE,NA,NA,imagined,0,feelings_bothyoufirst,NA,"I apologize first, then other apologizes",mutual,self_first
+R_2AGPmUVO4VuUVRX,FALSE,FALSE,NA,NA,imagined,0,feelings_themalone,NA,"Other apologizes first, I do not",unilateral,other_first
+R_2AGPmUVO4VuUVRX,FALSE,FALSE,NA,NA,imagined,0,feelings_boththemfirst,NA,"Other apologizes first, then I apologize",mutual,other_first
+R_2AGPmUVO4VuUVRX,FALSE,FALSE,NA,NA,imagined,0,feelings_neither,NA,Neither apologizes,neither,none
+R_2AGPmUVO4VuUVRX,FALSE,FALSE,NA,NA,imagined,0,feelings_youaloneforgiven,NA,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_d10TsWaHOMhhFlL,FALSE,FALSE,NA,NA,real,1,feelings_youalone,NA,"I apologize first, other does not",unilateral,self_first
+R_d10TsWaHOMhhFlL,FALSE,FALSE,NA,NA,real,1,feelings_bothyoufirst,NA,"I apologize first, then other apologizes",mutual,self_first
+R_d10TsWaHOMhhFlL,FALSE,FALSE,NA,NA,real,1,feelings_themalone,NA,"Other apologizes first, I do not",unilateral,other_first
+R_d10TsWaHOMhhFlL,FALSE,FALSE,NA,NA,real,1,feelings_boththemfirst,NA,"Other apologizes first, then I apologize",mutual,other_first
+R_d10TsWaHOMhhFlL,FALSE,FALSE,NA,NA,real,1,feelings_neither,NA,Neither apologizes,neither,none
+R_d10TsWaHOMhhFlL,FALSE,FALSE,NA,NA,real,1,feelings_youaloneforgiven,NA,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_3PSiUjIKioOk3tB,FALSE,FALSE,NA,NA,NA,NA,feelings_youalone,NA,"I apologize first, other does not",unilateral,self_first
+R_3PSiUjIKioOk3tB,FALSE,FALSE,NA,NA,NA,NA,feelings_bothyoufirst,NA,"I apologize first, then other apologizes",mutual,self_first
+R_3PSiUjIKioOk3tB,FALSE,FALSE,NA,NA,NA,NA,feelings_themalone,NA,"Other apologizes first, I do not",unilateral,other_first
+R_3PSiUjIKioOk3tB,FALSE,FALSE,NA,NA,NA,NA,feelings_boththemfirst,NA,"Other apologizes first, then I apologize",mutual,other_first
+R_3PSiUjIKioOk3tB,FALSE,FALSE,NA,NA,NA,NA,feelings_neither,NA,Neither apologizes,neither,none
+R_3PSiUjIKioOk3tB,FALSE,FALSE,NA,NA,NA,NA,feelings_youaloneforgiven,NA,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_2xK0t9nWwaJEZZc,FALSE,FALSE,NA,NA,NA,NA,feelings_youalone,NA,"I apologize first, other does not",unilateral,self_first
+R_2xK0t9nWwaJEZZc,FALSE,FALSE,NA,NA,NA,NA,feelings_bothyoufirst,NA,"I apologize first, then other apologizes",mutual,self_first
+R_2xK0t9nWwaJEZZc,FALSE,FALSE,NA,NA,NA,NA,feelings_themalone,NA,"Other apologizes first, I do not",unilateral,other_first
+R_2xK0t9nWwaJEZZc,FALSE,FALSE,NA,NA,NA,NA,feelings_boththemfirst,NA,"Other apologizes first, then I apologize",mutual,other_first
+R_2xK0t9nWwaJEZZc,FALSE,FALSE,NA,NA,NA,NA,feelings_neither,NA,Neither apologizes,neither,none
+R_2xK0t9nWwaJEZZc,FALSE,FALSE,NA,NA,NA,NA,feelings_youaloneforgiven,NA,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_1pRoB3KkAH3DjCD,FALSE,FALSE,NA,NA,real,1,feelings_youalone,-20,"I apologize first, other does not",unilateral,self_first
+R_1pRoB3KkAH3DjCD,FALSE,FALSE,NA,NA,real,1,feelings_bothyoufirst,20,"I apologize first, then other apologizes",mutual,self_first
+R_1pRoB3KkAH3DjCD,FALSE,FALSE,NA,NA,real,1,feelings_themalone,-10,"Other apologizes first, I do not",unilateral,other_first
+R_1pRoB3KkAH3DjCD,FALSE,FALSE,NA,NA,real,1,feelings_boththemfirst,20,"Other apologizes first, then I apologize",mutual,other_first
+R_1pRoB3KkAH3DjCD,FALSE,FALSE,NA,NA,real,1,feelings_neither,-10,Neither apologizes,neither,none
+R_1pRoB3KkAH3DjCD,FALSE,FALSE,NA,NA,real,1,feelings_youaloneforgiven,-5,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_sSjvgv4LJAETVPH,FALSE,FALSE,NA,NA,NA,NA,feelings_youalone,NA,"I apologize first, other does not",unilateral,self_first
+R_sSjvgv4LJAETVPH,FALSE,FALSE,NA,NA,NA,NA,feelings_bothyoufirst,NA,"I apologize first, then other apologizes",mutual,self_first
+R_sSjvgv4LJAETVPH,FALSE,FALSE,NA,NA,NA,NA,feelings_themalone,NA,"Other apologizes first, I do not",unilateral,other_first
+R_sSjvgv4LJAETVPH,FALSE,FALSE,NA,NA,NA,NA,feelings_boththemfirst,NA,"Other apologizes first, then I apologize",mutual,other_first
+R_sSjvgv4LJAETVPH,FALSE,FALSE,NA,NA,NA,NA,feelings_neither,NA,Neither apologizes,neither,none
+R_sSjvgv4LJAETVPH,FALSE,FALSE,NA,NA,NA,NA,feelings_youaloneforgiven,NA,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_2V1Pc7kT2TBEzJ9,FALSE,FALSE,NA,NA,real,1,feelings_youalone,NA,"I apologize first, other does not",unilateral,self_first
+R_2V1Pc7kT2TBEzJ9,FALSE,FALSE,NA,NA,real,1,feelings_bothyoufirst,NA,"I apologize first, then other apologizes",mutual,self_first
+R_2V1Pc7kT2TBEzJ9,FALSE,FALSE,NA,NA,real,1,feelings_themalone,NA,"Other apologizes first, I do not",unilateral,other_first
+R_2V1Pc7kT2TBEzJ9,FALSE,FALSE,NA,NA,real,1,feelings_boththemfirst,NA,"Other apologizes first, then I apologize",mutual,other_first
+R_2V1Pc7kT2TBEzJ9,FALSE,FALSE,NA,NA,real,1,feelings_neither,NA,Neither apologizes,neither,none
+R_2V1Pc7kT2TBEzJ9,FALSE,FALSE,NA,NA,real,1,feelings_youaloneforgiven,NA,"I apologize first, other forgives (no apology)",forgiven_only,self_first
+R_3dFdSBxKAJ9AtWN,FALSE,FALSE,NA,NA,NA,NA,feelings_youalone,NA,"I apologize first, other does not",unilateral,self_first
+R_3dFdSBxKAJ9AtWN,FALSE,FALSE,NA,NA,NA,NA,feelings_bothyoufirst,NA,"I apologize first, then other apologizes",mutual,self_first
+R_3dFdSBxKAJ9AtWN,FALSE,FALSE,NA,NA,NA,NA,feelings_themalone,NA,"Other apologizes first, I do not",unilateral,other_first
+R_3dFdSBxKAJ9AtWN,FALSE,FALSE,NA,NA,NA,NA,feelings_boththemfirst,NA,"Other apologizes first, then I apologize",mutual,other_first
+R_3dFdSBxKAJ9AtWN,FALSE,FALSE,NA,NA,NA,NA,feelings_neither,NA,Neither apologizes,neither,none
+R_3dFdSBxKAJ9AtWN,FALSE,FALSE,NA,NA,NA,NA,feelings_youaloneforgiven,NA,"I apologize first, other forgives (no apology)",forgiven_only,self_first

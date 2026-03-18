@@ -1,0 +1,133 @@
+---
+title: "Perceived Blame and Preferred Apology Order in Workplace Conflict"
+output:
+  pdf_document:
+    toc: false
+    number_sections: false
+    fig_caption: true
+  html_document:
+    toc: false
+    fig_caption: true
+---
+
+```{r setup, include=FALSE}
+library(readr)
+library(dplyr)
+library(knitr)
+
+required_paths <- c(
+  "output/figures/figure_01_primary_outcome_profile.png",
+  "output/figures/figure_02_main_blame_mutual_order.png",
+  "output/tables/table_main_regression_primary.csv",
+  "output/tables/sample_flow.csv",
+  "scripts/01_cleaning_module.R",
+  "scripts/02_main_analysis.R"
+)
+
+missing_paths <- required_paths[!file.exists(required_paths)]
+if (length(missing_paths) > 0) {
+  stop("Missing required file(s): ", paste(missing_paths, collapse = ", "))
+}
+
+tbl_main <- read_csv("output/tables/table_main_regression_primary.csv", show_col_types = FALSE)
+tbl_flow <- read_csv("output/tables/sample_flow.csv", show_col_types = FALSE)
+```
+
+This report asks whether perceived blame in a workplace conflict is associated with preferences over apology order when both parties eventually apologize. The prediction is simple: as participants see themselves as more to blame, they should be less inclined to prefer the outcome in which the other person apologizes first and they apologize second, relative to the reverse order.
+
+Participants rated six hypothetical apology outcomes after recalling or imagining a workplace conflict in which both sides were at least partly at fault. The main analyses use 46 respondents who completed the survey, passed the attention check, and had non-missing values for the focal variables. The key outcome ratings are within-respondent measures; blame attribution varies across respondents.
+
+## Results
+
+Figure 1 shows a strong preference for reciprocal apology over unilateral or absent apology. The most favored outcome was the one in which the other person apologized first and the participant apologized second (M = 17.48, 95% CI [14.13, 20.82]). The corresponding self-first reciprocal outcome was also positive, but notably lower (M = 7.85, 95% CI [3.60, 12.09]). By contrast, no apology was rated negatively (M = -14.50), as were the one-sided outcomes in which the participant apologized without receiving an apology in return.
+
+![Mean evaluations of six apology outcomes in the primary sample. Points show average feeling ratings for each hypothetical outcome, with 95% confidence intervals. Reciprocal apology outcomes were rated more positively than unilateral or absent apology, and the highest-rated outcome was the reciprocal sequence in which the other person apologized first and the participant apologized second.](output/figures/figure_01_primary_outcome_profile.png){width=85%}
+
+The within-person contrasts sharpen that pattern. The other-first reciprocal outcome was rated 9.63 points higher than the self-first reciprocal outcome, _t_(45) = 4.60, _p_ < .001, _d_z_ = 0.68. More broadly, the average of the two reciprocal outcomes exceeded the neither-apologizes outcome by 27.16 points, _t_(45) = 10.83, _p_ < .001, _d_z_ = 1.60. Reciprocal apology also outperformed the one-sided "I apologize and the other person forgives but does not apologize" outcome by 22.11 points, _t_(45) = 8.65, _p_ < .001, _d_z_ = 1.28.
+
+The main test asks whether that within-reciprocal preference varies with blame attribution. It does. Centered self-blame was negatively associated with the relative preference for the other-first reciprocal outcome, _b_ = -0.305, SE = 0.118, _t_ = -2.59, _p_ = .013, 95% CI [-0.542, -0.068], _R_^2^ = .133. On the observed scale, a 10-point increase in self-blame corresponded to about a 3-point reduction in preference for the other-first sequence.
+
+```{r reg-table, echo=FALSE}
+tbl_main %>%
+  transmute(
+    Sample = sample,
+    N = n,
+    Slope = round(slope, 3),
+    SE = round(se, 3),
+    `95% CI` = paste0("[", round(ci_low, 3), ", ", round(ci_high, 3), "]"),
+    p = format.pval(p, digits = 3, eps = .001),
+    `R^2` = round(r_squared, 3),
+    `Effect per 10 blame points` = round(effect_per_10_blame_points, 3)
+  ) %>%
+  kable(caption = "Main regression predicting relative preference for other-first versus self-first reciprocal apology.")
+```
+
+The robustness checks point the same way. The strict sample, which excluded one clearly dubious case, produced virtually the same slope (b = -0.305, _p_ = .014). A supporting directional binary-choice check was weaker but consistent: higher self-blame was associated with greater odds of choosing a self-first mutual-apology option over a neither-apologizes option (OR = 1.04, _p_ = .079). Restricting the analysis to respondents describing real conflicts also yielded a negative coefficient, though with more uncertainty (_p_ = .059). A Spearman check was similar in direction (_rho_ = -0.395, _p_ = .0066).
+
+![Self-blame and relative preference for other-first reciprocal apology. Each point represents one respondent in the primary sample. The y-axis is the rating for "the other person apologizes first, then I apologize" minus the rating for "I apologize first, then the other person apologizes," so higher values indicate a stronger preference for the other-first reciprocal outcome. The fitted line shows that greater self-blame was associated with a weaker preference for that outcome.](output/figures/figure_02_main_blame_mutual_order.png){width=80%}
+
+Figure 2 makes the central pattern easy to see. Respondents preferred reciprocal apology to unilateral or absent apology, and within reciprocal outcomes they generally preferred the other person to apologize first. That preference was not fixed: it became weaker as respondents attributed more blame to themselves.
+
+A central limitation is that the study relies on recalled or imagined conflicts rather than a controlled experimental setting. Conflict severity, relationship history, hierarchy, and memory quality all vary across cases, so the results should be read as associational rather than causal. A stronger redesign would use a randomized vignette experiment that manipulates blame asymmetry and apology order while holding the conflict constant, then measures anticipated feelings, fairness, and willingness to reconcile.
+
+Overall, the results are consistent with the proposed hypothesis. In these data, apology order within reciprocal resolution mattered, and its meaning shifted with perceived blame.
+
+## AI/tool use statement
+
+AI/tool use statement. I used an LLM as a bounded assistant for repetitive and mechanical parts of the workflow, and for checking and editing. In particular, I used it to help summarize the survey instrument, map variables, draft initial R code for data cleaning and analysis, check for inconsistencies in tables and captions, and tighten the final prose. I did not use it to outsource the core research decisions. I independently chose the research question and main hypothesis, decided the sample-screening rules, defined the focal variables, ran and checked all code locally, verified key ranges and levels, and decided which results and robustness checks were substantively meaningful enough to report.
+
+The key prompts/outputs I relied on were limited to a few parts of the process. First, I used the LLM to help translate the survey and task materials into a concrete workflow, including a variable map, likely repeated-measures structure, and a draft analysis plan. Second, I used it to generate first-pass R code for cleaning, reshaping, plotting, and regression, mainly to reduce repetitive coding time; I then ran, checked, and revised that code locally. Third, I used it as a second-pass reviewer to flag presentational issues, such as duplicated figure numbering, mixed statistical quantities in one robustness table, and wording that was too broad or too formulaic. Finally, I used it to tighten the writing and appendix language without changing the checked empirical results.
+
+## Appendix
+
+### A. Did you sanity-check ranges and missingness?
+
+The key variables were checked against the survey instrument before analysis. All feeling ratings fell within the expected -30 to 30 range, and the blame slider fell within the expected 0 to 100 range. No focal feeling or blame variable contained out-of-range values. One demographic value was implausible: age was reported as 149 for a respondent who also wrote that they were clicking through the survey. That case was retained in the primary sample because age was not part of the main analysis, but excluded in the strict robustness sample.
+
+Missingness was concentrated in incomplete surveys rather than scattered across completed responses. Of 61 raw responses, 47 were marked complete. One completed respondent failed the attention check, leaving 46 cases in the primary sample. The strict sample excluded one additional respondent with an implausible age and an explicit click-through comment, leaving 45 cases. Open-ended fields were often blank but were not required for the main analyses.
+
+### B. How did you confirm whether the structure was within- or between-subject?
+
+The key outcome ratings were within-respondent measures. Each respondent rated all six apology outcomes, so the feeling ratings are repeated measures within person. Blame attribution and respondent characteristics varied across respondents. Display-order fields supported this interpretation: for complete cases, the first five outcome items appeared in a valid permutation order and the sixth item appeared in a fixed final position.
+
+### C. Did you need to verify the levels of any variables?
+
+Yes. The attention check was reconstructed from the raw typed response rather than taken directly from the supplied pass/fail field. After trimming whitespace and standardizing capitalization, the expected response was "banana." Among observed responses, the rebuilt indicator matched the supplied attention variable. Binary choice items were recoded from long text strings with Qualtrics placeholders into compact analysis labels.
+
+### D. Was there any missing data? If so, how did you deal with it?
+
+Yes. Missingness was mostly due to survey dropout rather than item-level gaps in completed responses. Given the small sample and the concentration of missingness among unfinished surveys, the analysis used transparent screening and complete-case estimation rather than imputation. The main model used the primary sample of 46 respondents, and the stricter robustness check excluded one additional dubious case.
+
+```{r flow-table, echo=FALSE}
+tbl_flow %>%
+  transmute(
+    Step = step,
+    N = n,
+    `Dropped from previous step` = dropped_from_previous
+  ) %>%
+  kable(caption = "Sample construction flow.")
+```
+
+The robustness checks were intentionally limited and are best read as supporting evidence rather than co-primary tests. Re-estimating the main model in the strict sample produced essentially the same coefficient. The supporting binary directional check was weaker and only marginal by conventional thresholds, and the Spearman correlation preserved the same negative direction. These checks do not all target the same estimand, so they are summarized here in prose rather than combined in a single table.
+
+## Code Appendix
+
+**Anonymous repository link:** [insert anonymous repository link here]
+
+The full cleaning and analysis scripts are included below to satisfy the submission requirement that code appear after the write-up and figures.
+
+### Data cleaning code
+
+```{r cleaning-code, results='asis', echo=FALSE}
+cat("```r\n")
+cat(readLines("scripts/01_cleaning_module.R", warn = FALSE), sep = "\n")
+cat("\n```\n")
+```
+
+### Main analysis code
+
+```{r analysis-code, results='asis', echo=FALSE}
+cat("```r\n")
+cat(readLines("scripts/02_main_analysis.R", warn = FALSE), sep = "\n")
+cat("\n```\n")
+```
