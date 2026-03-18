@@ -74,7 +74,7 @@ Overall, the results are consistent with the proposed hypothesis. In these data,
 
 ## AI/tool use statement
 
-AI/tool use statement. I used an LLM as a bounded assistant for repetitive and mechanical parts of the workflow, and for checking and editing. In particular, I used it to help summarize the survey instrument, map variables, draft initial R code for data cleaning and analysis, check for inconsistencies in tables and captions, and tighten the final prose. I did not use it to outsource the core research decisions. I independently chose the research question and main hypothesis, decided the sample-screening rules, defined the focal variables, ran and checked all code locally, verified key ranges and levels, and decided which results and robustness checks were substantively meaningful enough to report.
+I used an LLM as a bounded assistant for repetitive and mechanical parts of the workflow, and for checking and editing. In particular, I used it to help summarize the survey instrument, map variables, draft initial R code for data cleaning and analysis, check for inconsistencies in tables and captions, and tighten the final prose. I did not use it to outsource the core research decisions. I independently chose the research question and main hypothesis, decided the sample-screening rules, defined the focal variables, ran and checked all code locally, verified key ranges and levels, and decided which results and robustness checks were substantively meaningful enough to report.
 
 The key prompts/outputs I relied on were limited to a few parts of the process. First, I used the LLM to help translate the survey and task materials into a concrete workflow, including a variable map, likely repeated-measures structure, and a draft analysis plan. Second, I used it to generate first-pass R code for cleaning, reshaping, plotting, and regression, mainly to reduce repetitive coding time; I then ran, checked, and revised that code locally. Third, I used it as a second-pass reviewer to flag presentational issues, such as duplicated figure numbering, mixed statistical quantities in one robustness table, and wording that was too broad or too formulaic. Finally, I used it to tighten the writing and appendix language without changing the checked empirical results.
 
@@ -112,9 +112,7 @@ The robustness checks were intentionally limited and are best read as supporting
 
 ## Code Appendix
 
-**Anonymous repository link:** [insert anonymous repository link here]
-
-The full cleaning and analysis scripts are included below to satisfy the submission requirement that code appear after the write-up and figures.
+**Anonymous repository link:** https://github.com/LoveBehavSci/coding-test-0319
 
 ### Data cleaning code
 

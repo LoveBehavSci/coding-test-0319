@@ -167,7 +167,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="aitool-use-statement" class="level2">
 <h2 class="anchored" data-anchor-id="aitool-use-statement">AI/tool use statement</h2>
-<p>AI/tool use statement. I used an LLM as a bounded assistant for repetitive and mechanical parts of the workflow, and for checking and editing. In particular, I used it to help summarize the survey instrument, map variables, draft initial R code for data cleaning and analysis, check for inconsistencies in tables and captions, and tighten the final prose. I did not use it to outsource the core research decisions. I independently chose the research question and main hypothesis, decided the sample-screening rules, defined the focal variables, ran and checked all code locally, verified key ranges and levels, and decided which results and robustness checks were substantively meaningful enough to report.</p>
+<p>I used an LLM as a bounded assistant for repetitive and mechanical parts of the workflow, and for checking and editing. In particular, I used it to help summarize the survey instrument, map variables, draft initial R code for data cleaning and analysis, check for inconsistencies in tables and captions, and tighten the final prose. I did not use it to outsource the core research decisions. I independently chose the research question and main hypothesis, decided the sample-screening rules, defined the focal variables, ran and checked all code locally, verified key ranges and levels, and decided which results and robustness checks were substantively meaningful enough to report.</p>
 <p>The key prompts/outputs I relied on were limited to a few parts of the process. First, I used the LLM to help translate the survey and task materials into a concrete workflow, including a variable map, likely repeated-measures structure, and a draft analysis plan. Second, I used it to generate first-pass R code for cleaning, reshaping, plotting, and regression, mainly to reduce repetitive coding time; I then ran, checked, and revised that code locally. Third, I used it as a second-pass reviewer to flag presentational issues, such as duplicated figure numbering, mixed statistical quantities in one robustness table, and wording that was too broad or too formulaic. Finally, I used it to tighten the writing and appendix language without changing the checked empirical results.</p>
 </section>
 <section id="appendix" class="level2">
@@ -244,8 +244,7 @@ pre > code.sourceCode > span > a:first-child::before { text-decoration: underlin
 </section>
 <section id="code-appendix" class="level2">
 <h2 class="anchored" data-anchor-id="code-appendix">Code Appendix</h2>
-<p><strong>Anonymous repository link:</strong> [insert anonymous repository link here]</p>
-<p>The full cleaning and analysis scripts are included below to satisfy the submission requirement that code appear after the write-up and figures.</p>
+<p><strong>Anonymous repository link:</strong> https://github.com/LoveBehavSci/coding-test-0319</p>
 <section id="data-cleaning-code" class="level3">
 <h3 class="anchored" data-anchor-id="data-cleaning-code">Data cleaning code</h3>
 <div class="code-copy-outer-scaffold"><div class="sourceCode" id="cb1"><pre class="sourceCode r code-with-copy"><code class="sourceCode r"><span id="cb1-1"><a href="#cb1-1" aria-hidden="true" tabindex="-1"></a><span class="co"># Cleaning module for the Booth coding test.</span></span>

@@ -116,7 +116,7 @@ The robustness checks were intentionally limited and are best read as supporting
 
 ## Code Appendix
 
-**Anonymous repository link:** [insert anonymous repository link here]
+**Anonymous repository link:** https://github.com/LoveBehavSci/coding-test-0319
 
 ### Data cleaning code
 
